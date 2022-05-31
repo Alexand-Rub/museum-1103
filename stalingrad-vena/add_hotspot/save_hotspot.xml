@@ -1,0 +1,479 @@
+
+<krpano>
+
+	<include url="plugins_l/plugin_a/photo.xml"/>
+	<include url="plugins_l/plugin_a/youtube.xml"/>
+	<include url="plugins_l/plugin_a/sound.xml"/>
+	<include url="plugins_l/plugin_a/video.xml"/>
+
+	<addhs_settings  pin_cod="" 
+ 					 sound_close_click="false" 
+ 					 video_close_click="true" 
+ 					 youtube_close_click="true" 
+					 FIRSTXML="tour" 
+					 path="%SWFPATH%/" 
+					 action_list="'add_hotspot/plugins_l/actionSM.html'" 
+ 		   		/>
+	
+
+  <hotspot  name="hotspot_1" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/media_playback_start.png" distorted="true" zorder="5"
+ 			ath="-26.711" atv="6.9452" width="100" height="prop" rx="1.5" ry="28.2" scale="0.45399999999999996" edge="center"
+ 			install_onclick="7" title="hotspot_1" scene_EL="scene_second" info_Ah="corsun_shevchen.mp4" fov_EL="99.34" enabled2="true" visible2="true" drag_hs="true"
+ 			volume_adhs="0.5" poster_Ah="0" loop="true" video_h="80"
+ 			onclick="looktohotspot(get(name),90); videoplayer_open(corsun_shevchen.mp4,get(poster_Ah));"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_2" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_2.png" distorted="true" zorder="5"
+ 			ath="-33.9235" atv="-23.4052" width="100" height="prop" rx="-24.6" ry="28.5" rotate="-1.65" scale="0.308" edge="center"
+ 			install_onclick="6" scene_EL="scene_second" info_Ah="кorsun.jpg" fov_EL="58.31" enabled2="true" visible2="true" drag_hs="true" tit_phot="0" phot_h="80"
+ 			onclick=" open_photo_add_hs(%SWFPATH%/add_hotspot/photo/кorsun.jpg);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_3" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_2.png" distorted="true" zorder="5"
+ 			ath="-36.2288" atv="-15.5936" width="100" height="prop" rx="-8.7" ry="34.8" rz="-0.75" scale="0.36" edge="center"
+ 			install_onclick="6" scene_EL="scene_second" info_Ah="Risgikov.jpg" fov_EL="91.89" enabled2="true" visible2="true" drag_hs="true" tit_phot="0" phot_h="80"
+ 			onclick=" open_photo_add_hs(%SWFPATH%/add_hotspot/photo/Risgikov.jpg);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_4" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_2.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="31.0321" atv="-29.3604" width="100" height="prop" rx="-32.4" ry="-21.6" rz="0.25" scale="0.393" edge="center"
+ 			install_onclick="6" scene_EL="scene_three" info_Ah="mother_country.jpg" fov_EL="89.24" enabled2="true" visible2="true" drag_hs="true" tit_phot="0" phot_h="80"
+ 			onclick=" open_photo_add_hs(%SWFPATH%/add_hotspot/photo/mother_country.jpg);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_5" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_2.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="36.1996" atv="-6.8328" width="100" height="prop" rx="-1.5" ry="-33.9" rz="0.7" scale="0.387" edge="center"
+ 			install_onclick="6" scene_EL="scene_three" info_Ah="Kozlov.jpg" fov_EL="89.24" enabled2="true" visible2="true" drag_hs="true" tit_phot="0" phot_h="80"
+ 			onclick=" open_photo_add_hs(%SWFPATH%/add_hotspot/photo/Kozlov.jpg);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_6" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_2.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="42.5584" atv="-15.42" width="100" height="prop" rx="-14.7" ry="-30.3" rz="0.2" scale="0.394" edge="center"
+ 			install_onclick="6" scene_EL="scene_three" info_Ah="reserves_are_leaving.jpg" fov_EL="89.24" enabled2="true" visible2="true" drag_hs="true" tit_phot="0" phot_h="80"
+ 			onclick=" open_photo_add_hs(%SWFPATH%/add_hotspot/photo/reserves_are_leaving.jpg);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_7" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/media_playback_start.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="52.7624" atv="9.8783" width="100" height="prop" rx="1.5" ry="-40.2" scale="0.383" edge="center"
+ 			install_onclick="7" title="hotspot_7" scene_EL="scene_three" info_Ah="mother_country.mp4" fov_EL="89.24" enabled2="true" visible2="true" drag_hs="true"
+ 			volume_adhs="0.5" poster_Ah="0" loop="true" video_h="80"
+ 			onclick="looktohotspot(get(name),90); videoplayer_open(mother_country.mp4,get(poster_Ah));"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_8" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_1.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="-23.9386" atv="-25.5552" width="100" height="prop" rx="-17.1" ry="31.5" rz="-0.25" scale="0.264" edge="center"
+ 			install_onclick="3" title="Borisov" scene_EL="scene_three" info_Ah="http://museum-1103.hstry.ru/add_hotspot/text/Shepilov.html" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			onclick="iframe_add_hotspot(IFRAME_HTML, TARGET_LAYER_NAME,http://museum-1103.hstry.ru/add_hotspot/text/Shepilov.html);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_9" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_2.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="-28.2023" atv="-24.664" width="100" height="prop" rx="-15.6" ry="29.7" scale="0.295" edge="center"
+ 			install_onclick="6" scene_EL="scene_three" info_Ah="Borisov.jpg" fov_EL="66.71" enabled2="true" visible2="true" drag_hs="true" tit_phot="0" phot_h="80"
+ 			onclick=" open_photo_add_hs(%SWFPATH%/add_hotspot/photo/Borisov.jpg);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_10" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_2.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="-27.6181" atv="23.1389" width="100" height="prop" rx="-46.8" ry="43.5" rz="46.25" scale="0.533" edge="center"
+ 			install_onclick="6" scene_EL="scene_three" info_Ah="leaflet.jpg" fov_EL="105.62" enabled2="true" visible2="true" drag_hs="true" tit_phot="0" phot_h="80"
+ 			onclick=" open_photo_add_hs(%SWFPATH%/add_hotspot/photo/leaflet.jpg);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_11" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_2.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="-10.9244" atv="-13.791" width="100" height="prop" rz="-1.7" scale="0.368" edge="center"
+ 			install_onclick="6" scene_EL="scene_three" info_Ah="Galanin.jpg" fov_EL="87.9" enabled2="true" visible2="true" drag_hs="true" tit_phot="0" phot_h="80"
+ 			onclick=" open_photo_add_hs(%SWFPATH%/add_hotspot/photo/Galanin.jpg);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_12" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/media_playback_start.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="25.5161" atv="15.1284" width="100" height="prop" rx="4.8" ry="-15.3" scale="0.44299999999999995" edge="center"
+ 			install_onclick="7" title="hotspot_12" scene_EL="scene_three" info_Ah="attack_the_enemy.mp4" fov_EL="87.9" enabled2="true" visible2="true" drag_hs="true"
+ 			volume_adhs="0.5" poster_Ah="0" loop="true" video_h="80"
+ 			onclick="looktohotspot(get(name),90); videoplayer_open(attack_the_enemy.mp4,get(poster_Ah));"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_13" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/media_playback_start.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="5.833" atv="-4.2593" width="100" height="prop" scale="0.426" edge="center"
+ 			install_onclick="7" title="hotspot_13" scene_EL="scene_three" info_Ah="scouts.mp4" fov_EL="90" enabled2="true" visible2="true" drag_hs="true"
+ 			volume_adhs="0.5" poster_Ah="0" loop="true" video_h="80"
+ 			onclick="looktohotspot(get(name),90); videoplayer_open(scouts.mp4,get(poster_Ah));"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_14" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_2.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="-47.7836" atv="-6.9108" width="100" height="prop" rx="-3.6" ry="37.5" scale="0.34099999999999997" edge="center"
+ 			install_onclick="6" scene_EL="scene_three" info_Ah="jacket.JPG" fov_EL="96.48" enabled2="true" visible2="true" drag_hs="true" tit_phot="0" phot_h="80"
+ 			onclick=" open_photo_add_hs(%SWFPATH%/add_hotspot/photo/jacket.JPG);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_15" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_2.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="-44.3821" atv="-19.3226" width="100" height="prop" rx="-19.2" ry="32.4" scale="0.303" edge="center"
+ 			install_onclick="6" scene_EL="scene_three" info_Ah="Shepilov.jpg" fov_EL="41.3" enabled2="true" visible2="true" drag_hs="true" tit_phot="0" phot_h="80"
+ 			onclick=" open_photo_add_hs(%SWFPATH%/add_hotspot/photo/Shepilov.jpg);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_16" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_1.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="-40.8476" atv="-20.2875" width="100" height="prop" rx="-22.2" ry="37.5" scale="0.3" edge="center"
+ 			install_onclick="3" title="Борисов" scene_EL="scene_three" info_Ah="http://museum-1103.hstry.ru/add_hotspot/text/Borisov.html" fov_EL="83.45" enabled2="true" visible2="true" drag_hs="true"
+ 			onclick="iframe_add_hotspot(IFRAME_HTML, TARGET_LAYER_NAME,http://museum-1103.hstry.ru/add_hotspot/text/Borisov.html);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_17" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_2.png" distorted="true" zorder="5"
+ 			ath="41.6651" atv="14.6743" width="100" height="prop" rx="14.4" ry="-28.8" scale="0.474" edge="center"
+ 			install_onclick="3" title="hotspot_17" scene_EL="scene_second" info_Ah="http://primer3.ru.xsph.ru/add_hotspot/gallery/hit_tanks.html" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			onclick="iframe_add_hotspot(IFRAME_HTML, TARGET_LAYER_NAME,http://primer3.ru.xsph.ru/add_hotspot/gallery/hit_tanks.html);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_18" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_2.png" distorted="true" zorder="5"
+ 			ath="37.7955" atv="-17.274" width="100" height="prop" rx="-15" ry="-24.3" scale="0.388" edge="center"
+ 			install_onclick="6" scene_EL="scene_second" info_Ah="Kulik.jpg" fov_EL="72.54" enabled2="true" visible2="true" drag_hs="true" tit_phot="0" phot_h="80"
+ 			onclick=" open_photo_add_hs(%SWFPATH%/add_hotspot/photo/Kulik.jpg);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_19" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/media_playback_start.png" distorted="true" zorder="5"
+ 			ath="49.9764" atv="-11.7183" width="100" height="prop" rx="-7.2" ry="-32.7" scale="0.396" edge="center"
+ 			install_onclick="7" title="hotspot_19" scene_EL="scene_second" info_Ah="gunners.mp4" fov_EL="71.74" enabled2="true" visible2="true" drag_hs="true"
+ 			volume_adhs="0.5" poster_Ah="0" loop="true" video_h="80"
+ 			onclick="looktohotspot(get(name),90); videoplayer_open(gunners.mp4,get(poster_Ah));"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_20" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/media_playback_start.png" distorted="true" zorder="5"
+ 			ath="49.8425" atv="12.6022" width="100" height="prop" rx="15" ry="-32.4" scale="0.397" edge="center"
+ 			install_onclick="7" title="hotspot_20" scene_EL="scene_second" info_Ah="tiger_tank.mp4" fov_EL="68.26" enabled2="true" visible2="true" drag_hs="true"
+ 			volume_adhs="0.5" poster_Ah="0" loop="true" video_h="80"
+ 			onclick="looktohotspot(get(name),90); videoplayer_open(tiger_tank.mp4,get(poster_Ah));"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_21" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_2.png" distorted="true" zorder="5"
+ 			ath="25.9876" atv="-29.423" width="100" height="prop" rx="-33.9" ry="-20.1" rz="0.05" scale="0.464" edge="center"
+ 			install_onclick="6" scene_EL="scene_second" info_Ah="Dnieper.jpg" fov_EL="67.18" enabled2="true" visible2="true" drag_hs="true" tit_phot="0" phot_h="60"
+ 			onclick=" open_photo_add_hs(%SWFPATH%/add_hotspot/photo/Dnieper.jpg);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_22" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_2.png" distorted="true" zorder="5"
+ 			ath="28.9634" atv="12.0164" width="100" height="prop" rx="9.3" ry="-14.1" scale="0.544" edge="center"
+ 			install_onclick="6" scene_EL="scene_second" info_Ah="nurses.jpg" fov_EL="90.4" enabled2="true" visible2="true" drag_hs="true" tit_phot="0" phot_h="80"
+ 			onclick=" open_photo_add_hs(%SWFPATH%/add_hotspot/photo/nurses.jpg);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_23" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/media_playback_start.png" distorted="true" zorder="5"
+ 			ath="12.489" atv="9.3092" width="100" height="prop" rx="-2.4" ry="9.9" scale="0.542" edge="center"
+ 			install_onclick="7" title="hotspot_23" scene_EL="scene_second" info_Ah="Dnieper.mp4" fov_EL="86.25" enabled2="true" visible2="true" drag_hs="true"
+ 			volume_adhs="0.5" poster_Ah="0" loop="true" video_h="80"
+ 			onclick="looktohotspot(get(name),90); videoplayer_open(Dnieper.mp4,get(poster_Ah));"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_24" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_2.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="104.4886" atv="11.6639" width="100" height="prop" rx="8.1" ry="-13.2" rz="-2" scale="0.336" edge="center"
+ 			install_onclick="6" scene_EL="scene_first" info_Ah="doctors.jpg" fov_EL="47.6" enabled2="true" visible2="true" drag_hs="true" tit_phot="0" phot_h="60"
+ 			onclick=" open_photo_add_hs(%SWFPATH%/add_hotspot/photo/doctors.jpg);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_25" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_2.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="101.6205" atv="-7.4243" width="100" height="prop" rx="-8.7" ry="-17.1" scale="0.316" edge="center"
+ 			install_onclick="6" scene_EL="scene_first" info_Ah="tunic.jpg" fov_EL="43.57" enabled2="true" visible2="true" drag_hs="true" tit_phot="0" phot_h="80"
+ 			onclick=" open_photo_add_hs(%SWFPATH%/add_hotspot/photo/tunic.jpg);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_26" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_2.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="89.4816" atv="10.7697" width="100" height="prop" rx="5.4" ry="-11.1" scale="0.364" edge="center"
+ 			install_onclick="6" scene_EL="scene_first" info_Ah="blanket.jpg" fov_EL="91.66" enabled2="true" visible2="true" drag_hs="true" tit_phot="0" phot_h="80"
+ 			onclick=" open_photo_add_hs(%SWFPATH%/add_hotspot/photo/blanket.jpg);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_27" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_2.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="98.6768" atv="-13.1824" width="100" height="prop" rx="-9" ry="-17.1" scale="0.289" edge="center"
+ 			install_onclick="6" scene_EL="scene_first" info_Ah="Kornowski.jpg" fov_EL="46.36" enabled2="true" visible2="true" drag_hs="true" tit_phot="0" phot_h="80"
+ 			onclick=" open_photo_add_hs(%SWFPATH%/add_hotspot/photo/Kornowski.jpg);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_28" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_2.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="89.9249" atv="-10.7598" width="100" height="prop" scale="0.327" edge="center"
+ 			install_onclick="6" scene_EL="scene_first" info_Ah="medical_gown.jpg" fov_EL="76.46" enabled2="true" visible2="true" drag_hs="true" tit_phot="0" phot_h="80"
+ 			onclick=" open_photo_add_hs(%SWFPATH%/add_hotspot/photo/medical_gown.jpg);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_29" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_2.png" distorted="true" zorder="5"
+ 			ath="-19.6425" atv="20.7781" width="100" height="prop" rx="-51.6" ry="29.1" rz="36" scale="0.858" edge="center"
+ 			install_onclick="6" scene_EL="scene_second" info_Ah="med_table.jpg" fov_EL="120" enabled2="true" visible2="true" drag_hs="true" tit_phot="0" phot_h="80"
+ 			onclick=" open_photo_add_hs(%SWFPATH%/add_hotspot/photo/med_table.jpg);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_30" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/media_playback_start.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="21.1505" atv="-20.5538" width="100" height="prop" rx="-5.1" ry="-26.1" scale="0.318" edge="center"
+ 			install_onclick="7" title="hotspot_30" scene_EL="scene_first" info_Ah="map.mp4" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			volume_adhs="0.5" poster_Ah="0" loop="true" video_h="80"
+ 			onclick="looktohotspot(get(name),90); videoplayer_open(map.mp4,get(poster_Ah));"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_31" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_2.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="-89.4104" atv="-12.0293" width="100" height="prop" scale="0.307" edge="center"
+ 			install_onclick="6" scene_EL="scene_first" info_Ah="scheme.jpg" fov_EL="83.24" enabled2="true" visible2="true" drag_hs="true" tit_phot="0" phot_h="80"
+ 			onclick=" open_photo_add_hs(%SWFPATH%/add_hotspot/photo/scheme.jpg);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_32" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_2.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="-95.0001" atv="-12.2025" width="100" height="prop" rx="4.8" ry="-1.5" scale="0.293" edge="center"
+ 			install_onclick="6" title="hotspot_32" scene_EL="scene_first" info_Ah="Zakharov.jpg" fov_EL="83.24" enabled2="true" visible2="true" drag_hs="true" tit_phot="0" phot_h="80"
+ 			onclick=" open_photo_add_hs(%SWFPATH%/add_hotspot/photo/Zakharov.jpg);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_33" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_2.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="-53.5825" atv="12.5788" width="100" height="prop" rx="11.4" ry="-32.7" scale="0.39" edge="center"
+ 			install_onclick="6" scene_EL="scene_first" info_Ah="radio.jpg" fov_EL="72.17" enabled2="true" visible2="true" drag_hs="true" tit_phot="0" phot_h="80"
+ 			onclick=" open_photo_add_hs(%SWFPATH%/add_hotspot/photo/radio.jpg);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_34" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/media_playback_start.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="-48.0164" atv="-10.942" width="100" height="prop" rx="-3.6" ry="-33.6" scale="0.41800000000000004" edge="center"
+ 			install_onclick="7" title="hotspot_34" scene_EL="scene_first" info_Ah="radist.mp4" fov_EL="72.17" enabled2="true" visible2="true" drag_hs="true"
+ 			volume_adhs="0.5" poster_Ah="0" loop="true" video_h="80"
+ 			onclick="looktohotspot(get(name),90); videoplayer_open(radist.mp4,get(poster_Ah));"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_35" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_2.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="-75.8139" atv="-0.5686" width="100" height="prop" rx="4.2" ry="-11.4" scale="0.303" edge="center"
+ 			install_onclick="6" scene_EL="scene_first" info_Ah="Bagirov.jpg" fov_EL="78.02" enabled2="true" visible2="true" drag_hs="true" tit_phot="0" phot_h="80"
+ 			onclick=" open_photo_add_hs(%SWFPATH%/add_hotspot/photo/Bagirov.jpg);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_36" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_2.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="-70.3641" atv="3.6582" width="100" height="prop" rx="3.9" ry="-19.2" scale="0.309" edge="center"
+ 			install_onclick="6" scene_EL="scene_first" info_Ah="podvig.jpg" fov_EL="64.62" enabled2="true" visible2="true" drag_hs="true" tit_phot="0" phot_h="80"
+ 			onclick=" open_photo_add_hs(%SWFPATH%/add_hotspot/photo/podvig.jpg);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_37" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_2.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="-62.0627" atv="10.3774" width="100" height="prop" scale="0.265" edge="center"
+ 			install_onclick="6" scene_EL="scene_first" info_Ah="ppsh.jpg" fov_EL="39.03" enabled2="true" visible2="true" drag_hs="true" tit_phot="0" phot_h="80"
+ 			onclick=" open_photo_add_hs(%SWFPATH%/add_hotspot/photo/ppsh.jpg);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_38" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_2.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="-76.0355" atv="11.592" width="100" height="prop" rx="6" ry="-14.4" scale="0.328" edge="center"
+ 			install_onclick="6" scene_EL="scene_first" info_Ah="pasport.jpg" fov_EL="40.23" enabled2="true" visible2="true" drag_hs="true" tit_phot="0" phot_h="80"
+ 			onclick=" open_photo_add_hs(%SWFPATH%/add_hotspot/photo/pasport.jpg);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_39" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_1.png" enabled="false" visible="false" zorder="5"
+ 			ath="79.4339" atv="-13.1203" width="100" height="prop" rx="-17.1" ry="15" scale="0.391" edge="center"
+			ondown="drag_LinkSM()drag_LinkSM();drag_LinkSM();drag_LinkSM();drag_LinkSM();drag_LinkSM();drag_LinkSM();drag_LinkSM();drag_LinkSM();drag_LinkSM();drag_LinkSM();drag_LinkSM();drag_LinkSM();drag_LinkSM();drag_LinkSM();drag_LinkSM();drag_LinkSM();drag_LinkSM();drag_LinkSM();drag_LinkSM();drag_LinkSM();drag_LinkSM();drag_LinkSM();drag_LinkSM();drag_LinkSM();drag_LinkSM();drag_LinkSM();"
+ 		/>
+	
+
+  <hotspot  name="hotspot_40" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_1.png" enabled="false" visible="false" zorder="5"
+ 			ath="118.9933" atv="18.398" width="100" height="prop" rx="-12" ry="-18" scale="0.438" edge="center"
+ 			install_onclick="3" title="hotspot_40" scene_EL="scene_four" info_Ah="http://primer3.ru.xsph.ru/add_hotspot/text/viennese_waltz.html" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			onclick="iframe_add_hotspot(IFRAME_HTML, TARGET_LAYER_NAME,http://primer3.ru.xsph.ru/add_hotspot/text/viennese_waltz.html);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_41" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_2.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="118.644" atv="-12.5019" width="100" height="prop" rx="-12.9" ry="-17.7" rz="1.15" scale="0.41" edge="center"
+ 			install_onclick="6" scene_EL="scene_four" info_Ah="platie.jpg" fov_EL="82.52" enabled2="true" visible2="true" drag_hs="true" tit_phot="0" phot_h="80"
+ 			onclick=" open_photo_add_hs(%SWFPATH%/add_hotspot/photo/platie.jpg);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_42" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_2.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="109.7183" atv="-11.4158" width="100" height="prop" rx="-10.8" ry="-14.1" rz="1.3" scale="0.382" edge="center"
+ 			install_onclick="6" scene_EL="scene_four" info_Ah="Gymnastyorka.jpg" fov_EL="82.52" enabled2="true" visible2="true" drag_hs="true" tit_phot="0" phot_h="80"
+ 			onclick=" open_photo_add_hs(%SWFPATH%/add_hotspot/photo/Gymnastyorka.jpg);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_43" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_2.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="16.4352" atv="1.1923" width="100" height="prop" rx="-1.2" ry="11.4" scale="0.512" edge="center"
+ 			install_onclick="6" scene_EL="scene_five" info_Ah="lydi.jpg" fov_EL="59.38" enabled2="true" visible2="true" drag_hs="true" tit_phot="0" phot_h="70"
+ 			onclick=" open_photo_add_hs(%SWFPATH%/add_hotspot/photo/lydi.jpg);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_44" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/media_playback_start.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="39.659" atv="-35.7338" width="100" height="prop" rx="-26.1" ry="-3.9" rz="-1.05" scale="0.578" edge="center"
+ 			install_onclick="7" title="hotspot_44" scene_EL="scene_five" info_Ah="pobeda.mp4" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			volume_adhs="0.5" poster_Ah="0" loop="true" video_h="80"
+ 			onclick="looktohotspot(get(name),90); videoplayer_open(pobeda.mp4,get(poster_Ah));"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_45" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/Audio.png" enabled="false" visible="false" zorder="5"
+ 			ath="83.2189" atv="-16.1716" width="100" height="prop" scale="0.503" edge="center"
+ 			install_onclick="9" title="hotspot_45" scene_EL="scene_first" info_Ah="bathrobe" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			volume_adhs="0.5" loop_s="false" play_shs="false" newscen_stopsoud="true" sound3D="false" range_sound="90"
+ 			onclick="click_s_hs(get(info_Ah))"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_46" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/Audio.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="-12.4829" atv="-34.0051" width="100" height="prop" rx="-25.5" ry="20.7" scale="0.632" edge="center"
+ 			install_onclick="9" title="hotspot_46" scene_EL="scene_three" info_Ah="battle_of_stalingrad" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			volume_adhs="0.5" loop_s="false" play_shs="false" newscen_stopsoud="true" sound3D="false" range_sound="90"
+ 			onclick="click_s_hs(get(info_Ah))"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_47" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/Audio.png" enabled="false" visible="false" zorder="5"
+ 			ath="103.7442" atv="-16.1804" width="100" height="prop" scale="0.556" edge="center"
+ 			install_onclick="9" title="hotspot_47" scene_EL="scene_four" info_Ah="viennese_waltz" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			volume_adhs="0.5" loop_s="false" play_shs="false" newscen_stopsoud="true" sound3D="false" range_sound="90"
+ 			onclick="click_s_hs(get(info_Ah))"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_48" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/Audio.png" distorted="true" zorder="5"
+ 			ath="-40.1097" atv="-24.6535" width="100" height="prop" rx="-27.9" ry="44.1" rz="-7.4" rotate="8.25" scale="0.415" edge="center"
+ 			install_onclick="9" title="hotspot_48" scene_EL="scene_second" info_Ah="korsun_shevchenko" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			volume_adhs="0.5" loop_s="false" play_shs="false" newscen_stopsoud="true" sound3D="false" range_sound="90"
+ 			onclick="click_s_hs(get(info_Ah))"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_49" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/Audio.png" distorted="true" zorder="5"
+ 			ath="-56.9118" atv="20.5536" width="100" height="prop" rx="23.7" ry="53.7" rz="2.8" scale="0.638" edge="center"
+ 			install_onclick="9" title="hotspot_49" scene_EL="scene_second" info_Ah="medical_instruments" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			volume_adhs="0.5" loop_s="false" play_shs="false" newscen_stopsoud="true" sound3D="false" range_sound="90"
+ 			onclick="click_s_hs(get(info_Ah))"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_50" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/Audio.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="39.7676" atv="-11.1185" width="100" height="prop" rx="-4.5" ry="31.2" rz="-1.8" scale="0.229" edge="center"
+ 			install_onclick="9" title="hotspot_50" scene_EL="scene_first" info_Ah="moldova" fov_EL="47.76" enabled2="true" visible2="true" drag_hs="true"
+ 			volume_adhs="0.5" loop_s="false" play_shs="false" newscen_stopsoud="true" sound3D="false" range_sound="90"
+ 			onclick="click_s_hs(get(info_Ah))"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_51" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/Audio.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="-100.866" atv="-17.9929" width="100" height="prop" scale="0.347" edge="center"
+ 			install_onclick="9" title="hotspot_51" scene_EL="scene_first" info_Ah="szekesfehervar" fov_EL="89.25" enabled2="true" visible2="true" drag_hs="true"
+ 			volume_adhs="0.5" loop_s="false" play_shs="false" newscen_stopsoud="true" sound3D="false" range_sound="90"
+ 			onclick="click_s_hs(get(info_Ah))"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_52" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/Audio.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="6.0739" atv="-30.9956" width="100" height="prop" rx="-24" ry="26.7" scale="0.549" edge="center"
+ 			install_onclick="9" title="hotspot_52" scene_EL="scene_five" info_Ah="winning_stand" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			volume_adhs="0.5" loop_s="false" play_shs="false" newscen_stopsoud="true" sound3D="false" range_sound="90"
+ 			onclick="click_s_hs(get(info_Ah))"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_53" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/media_playback_start.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="46.7634" atv="10.7899" width="100" height="prop" rx="8.4" ry="33" scale="0.395" edge="center"
+ 			install_onclick="7" title="hotspot_53" scene_EL="scene_first" info_Ah="scholl.mp4" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			volume_adhs="0.5" poster_Ah="0" loop="true" video_h="80"
+ 			onclick="looktohotspot(get(name),90); videoplayer_open(scholl.mp4,get(poster_Ah));"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_54" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/Audio.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="-5.8246" atv="-37.9147" width="100" height="prop" rx="-29.7" ry="8.4" scale="0.655" edge="center"
+ 			install_onclick="9" title="hotspot_54" scene_EL="scene_six" info_Ah="capture_of_vienna" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			volume_adhs="0.5" loop_s="false" play_shs="false" newscen_stopsoud="true" sound3D="false" range_sound="90"
+ 			onclick="click_s_hs(get(info_Ah))"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_55" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/Audio.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="52.7044" atv="-22.94" width="100" height="prop" rx="-21.6" ry="-38.4" rz="3.55" scale="0.387" edge="center"
+ 			install_onclick="9" title="hotspot_55" scene_EL="scene_three" info_Ah="first" fov_EL="90" enabled2="true" visible2="true" drag_hs="true"
+ 			volume_adhs="0.5" loop_s="false" play_shs="false" newscen_stopsoud="true" sound3D="false" range_sound="90"
+ 			onclick="click_s_hs(get(info_Ah))"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_56" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/Audio.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="-55.2692" atv="-19.8212" width="100" height="prop" rx="-19.5" ry="54" scale="0.407" edge="center"
+ 			install_onclick="9" title="hotspot_56" scene_EL="scene_three" info_Ah="shepilov" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			volume_adhs="undefined" loop_s="false" play_shs="false" newscen_stopsoud="undefined" sound3D="undefined" range_sound="undefined"
+ 			onclick="click_s_hs(get(info_Ah))"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_57" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/youtube_icon.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="-25.3376" atv="7.1197" width="100" height="prop" rx="5.4" ry="8.7" rz="0.8" scale="0.771" edge="center"
+ 			install_onclick="8" title="hotspot_57" scene_EL="scene_first" info_Ah="wdUSjIlR8Go" fov_EL="120" enabled2="true" visible2="true" drag_hs="true" youtube_h="80"
+ 			onclick="youtubeplayer_open_addhs(wdUSjIlR8Go);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_58" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/Audio.png" distorted="true" zorder="5"
+ 			ath="-5.3299" atv="-32.9958" width="100" height="prop" rx="-35.4" ry="9.9" scale="0.562" edge="center"
+ 			install_onclick="9" title="hotspot_58" scene_EL="scene_second" info_Ah="crossing_of_dnieper" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			volume_adhs="0.5" loop_s="false" play_shs="false" newscen_stopsoud="true" sound3D="false" range_sound="90"
+ 			onclick="click_s_hs(get(info_Ah))"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+ <style name="pl_hs_add_hs"
+ 		keep="true"
+		enabled2="true"
+ 		visible2="true"
+ 		visible="false"
+ 		alpha="1"
+ 		alpha2="1"
+ 		capture="false"
+ 		handcursor="true"
+ 		zorder="0"
+ 		install_onclick="14"
+ 		fov_EL="90"
+ 		fillcolor="0xFF0000"
+ 		fillcolor2="0x0087B8"
+ 		fillalpha="0.50"
+ 		fillalpha2="0.00"
+ 		borderwidth="2"
+ 		borderwidth2="2"
+ 		bordercolor="0x55FF00"
+ 		bordercolor2="0x55FF00"
+ 		borderalpha="1.00"
+ 		borderalpha2="1.00"
+ 		onover="set_pol_2(get(name));"
+ 		onout="set_pol_1();"
+ 		ondown="ondown_pl_hs();"
+ 		blendmode="normal"
+	 />
+
+	 <!-- polygonal hotspot -->
+
+
+ 
+</krpano>

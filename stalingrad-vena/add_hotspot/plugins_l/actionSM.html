@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="imagetoolbar" content="no" />
+	<meta charset="utf-8">
+  <title>background-image</title>
+  
+  <link rel="stylesheet" href="styles/layout.css">
+  
+</head>
+<body>	
+ <style type="text/css"> 
+ body {
+    background-color:#2f2f2f; /* Цвет фона */
+   }
+   
+   .brd {
+    border: 6px double black; /* Параметры границы */
+    background: #777777; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+   }
+   
+   ul {
+    font-family:Arial;
+	font-size: 13pt; /* Размер шрифта в пунктах */ 
+	color: #FFFFFF;
+	 line-height: 1.5;
+   }
+   
+     h2 {
+    font-family:Arial;
+	font-size: 16pt; /* Размер шрифта в пунктах */ 
+	color: #FFFFFF;
+   }
+</style>
+	
+<h2>Commonly Used Actions</h2>
+	<hr>
+		<ul>
+			<li>set(alpha,0);</li>
+			<li>tween(alpha, 1.0 ,0.1);</li>
+			<li>tween(view.fov, 150.0, 2.0);</li>
+			<li>switch(alpha, 0.2, 0.7, 1);</li>
+			<li>loadscene(scene1, null, MERGE, BLEND(1));</li>
+			<li>lookto(33,-22,30,smooth(100,50,20));</li>
+			<li>looktohotspot(hotspot2, 40);</li>
+			<li>callwith(hotspot[newspot],onclick);</li>
+			<li>delayedcall(2, set(alpha,0.5); );</li>
+			<li>openurl('https://krpano.com',_blank);</li>
+			<li>showlog(true);</li>
+			<li>trace(name);</li><br>
+				
+		
+			<li>flyoutSM(); -  Hotspot crashes to the center of the screen . </li>
+			<li>OpenPhotoSM(%SWFPATH%/add_hotspot/photo/nature1.jpg, Природа, 50); </li>
+			<li>VideoPlaySM(video-1024x512.mp4, video-1024x512-poster.jpg, 0.5, true, 80); </li>
+			<li>YoutubOpenSM(i92-cHzRNTI, 70); </li>
+			<li>HideShowHotspot(); </li><br>
+		
+			<b>Open in frame: </b>
+			<li>openFrame(html,get(data[data_html].content),400,300,true); - open HTML from data  https://krpano.com/releases/1.20.6/examples/#pp-blur .</li>
+			<li>openFrame(iframe,'https://krpano.com',1200,900, true); - Open site https://krpano.com in a frame .</li>
+			<li>openFrame('image', '%CURRENTXML%/photo.jpg'); - Open photo "photo.jpg".</li>
+						
+		</ul>
+		
+		
+		
+</body>	
+</html>
